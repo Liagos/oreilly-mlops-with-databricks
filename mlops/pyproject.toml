@@ -7,7 +7,7 @@ dependencies = [
     "mlflow==3.11.1",
     "cffi==1.17.1",
     "cloudpickle==3.1.1",
-    "numpy==2.4.0",
+    "numpy==1.26.4",
     "pandas==2.3.0",
     "pyarrow==22.0.0",
     "databricks-sdk==0.102.0",
@@ -17,11 +17,12 @@ dependencies = [
     "pydantic==2.11.7",
     "loguru==0.7.3",
     "python-dotenv==1.1.1",
-    "ray[tune]==2.52.1",
+    "ray[tune]==2.48.0",
     "optuna==4.4.0",
     "sdv==1.24.0",
     "databricks-feature-engineering==0.14.0",
-    "databricks-feature-lookup==1.11.0"
+    "databricks-feature-lookup==1.11.0",
+    "torch==2.2.2",
 ]
 
 [project.optional-dependencies]
